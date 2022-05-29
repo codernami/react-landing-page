@@ -14,7 +14,7 @@ export const StyledCard = styled.div`
 
   p {
     color: #808d99;
-    padding: 2rem .5rem;
+    padding: 2rem 0.5rem;
   }
   img {
     width: 80%;
@@ -24,8 +24,12 @@ export const StyledCard = styled.div`
 export const MiniCard = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
   text-align: center;
+  max-width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
+
   background-color: #fff;
   color: #333;
   border-radius: 10px;
