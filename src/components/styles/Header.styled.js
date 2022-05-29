@@ -6,6 +6,17 @@ export const StyledHeader = styled.header`
   align-items: center;
   padding: 1rem;
   background-color: #ebfbff;
+
+  @media (min-width: 768px) {
+    padding: 2.5rem;
+  }
+
+  @media (min-width: 992px) {
+    button:hover {
+      background-color: #ff52bf;
+      color: #fff;
+    }
+  }
 `;
 
 export const Logo = styled.img`
