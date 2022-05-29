@@ -11,8 +11,10 @@ export const StyledCard = styled.div`
   div {
     padding: 3rem 1rem;
   }
-  h2 {
-    margin: 2rem 0;
+
+  p {
+    color: #808d99;
+    padding: 2rem .5rem;
   }
   img {
     width: 80%;
@@ -33,5 +35,6 @@ export const MiniCard = styled.div`
 
   p {
     margin: 1rem 0;
+    font-weight: bold;
   }
 `;
