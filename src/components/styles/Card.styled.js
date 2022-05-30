@@ -24,26 +24,38 @@ export const StyledCard = styled.div`
 export const MiniCard = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: center;
-  max-width: 350px;
+  align-items: center;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
+  width: 100%;
   margin-bottom: 1rem;
-
+  padding: 1rem;
   background-color: #fff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  padding: 1rem 0;
   transform: translateY(-90px);
 
   @media (min-width: 768px) {
-    max-width: 700px;
-    padding: 2rem 0;
+    flex-wrap: wrap;
+    width: 50%;
   }
 
   p {
     margin: 1rem 0;
     font-weight: bold;
+    @media (min-width: 768px) {
+      margin: 1rem;
+    }
+  }
+  button {
+    width: 80%;
+
+    @media (min-width: 768px) {
+      width: 50%;
+      margin: 1rem;
+      padding: 1rem;
+    }
   }
 `;

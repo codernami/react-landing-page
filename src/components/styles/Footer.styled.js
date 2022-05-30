@@ -6,8 +6,12 @@ export const StyledFooter = styled.footer`
   color: #fff;
 
   img {
-    width: 20%;
+    width: 35%;
     margin-bottom: 2rem;
+
+    @media (min-width: 768px) {
+      width: 20%;
+    }
   }
 
   div {

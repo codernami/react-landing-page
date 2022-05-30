@@ -8,12 +8,10 @@ export default function Footer() {
   return (
     <StyledFooter>
       <MiniCard>
-        <div>
-          <p>Ready To Build Your Community?</p>
-          <Button bg="#ff52bf" color="#FFF" padding=".5rem 2rem">
-            Get Started For Free
-          </Button>
-        </div>
+        <p>Ready To Build Your Community?</p>
+        <Button bg="#ff52bf" color="#FFF" padding=".5rem 2rem">
+          Get Started For Free
+        </Button>
       </MiniCard>
       <Logo src="./images/logo_white.svg" alt="" />
       <div>
