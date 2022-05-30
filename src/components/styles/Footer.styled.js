@@ -5,6 +5,10 @@ export const StyledFooter = styled.footer`
   background-color: #00252e;
   color: #fff;
 
+  @media(min-width: 768px) {
+    padding: 0 5rem 3rem;
+  }
+
   img {
     width: 35%;
     margin-bottom: 2rem;

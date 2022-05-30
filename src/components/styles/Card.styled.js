@@ -8,6 +8,10 @@ export const StyledCard = styled.div`
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 
+  @media (min-width: 768px) {
+    flex-direction: ${({ layout }) => layout || "row"};
+    align-items: center;
+  }
   div {
     padding: 3rem 1rem;
   }
