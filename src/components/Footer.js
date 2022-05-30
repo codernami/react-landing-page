@@ -25,18 +25,21 @@ export default function Footer() {
           <li>+1-543-123-4567</li>
           <li>example@huddle.com</li>
         </ul>
+
+        <div>
+          <ul>
+            <li>About Us</li>
+            <li>What We Do</li>
+            <li>FAQ</li>
+          </ul>
+          <ul>
+            <li>Career</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <SocialLinks />
       </div>
-      <div>
-        <ul>
-          <li>About Us</li>
-          <li>What We Do</li>
-          <li>FAQ</li>
-          <li>Career</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
-        </ul>
-      </div>
-      <SocialLinks />
     </StyledFooter>
   );
 }

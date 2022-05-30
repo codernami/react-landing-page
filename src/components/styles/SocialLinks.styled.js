@@ -17,5 +17,11 @@ export const StyledSocialLinks = styled.div`
   }
   small {
     text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: right;
+      width: 300px;
+      margin-top: 3rem;
+    }
   }
 `;
