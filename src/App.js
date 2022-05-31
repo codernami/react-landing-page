@@ -1,6 +1,5 @@
 import { GlobalStyles } from "./components/styles/Global";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import { Container } from "./components/styles/Container.styled";
@@ -11,7 +10,6 @@ export default function App() {
     <>
       <GlobalStyles />
       <Header />
-      <Hero />
       <Container>
         {content.map((item, index) => (
           <Card key={index} item={item} />
