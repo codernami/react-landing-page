@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const StyledSocialLinks = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
   ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 0.5rem;
   }
   a {
     color: #fff;
@@ -18,8 +18,7 @@ export const StyledSocialLinks = styled.div`
   small {
     text-align: center;
 
-    @media (min-width: 768px) {
-      text-align: right;
+    @media (min-width: 1440px) {
       margin-top: 5rem;
       width: 300px;
     }

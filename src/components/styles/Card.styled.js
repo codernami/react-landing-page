@@ -29,12 +29,9 @@ export const MiniCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
-  width: 100%;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 1.7rem 0.5rem;
   background-color: #fff;
   color: #333;
   border-radius: 10px;
@@ -42,25 +39,30 @@ export const MiniCard = styled.div`
   transform: translateY(-90px);
 
   @media (min-width: 768px) {
-    flex-wrap: wrap;
-    width: 50%;
+    margin: 0 auto;
+    width: min(750px, 70%);
   }
 
   p {
-    margin: 1rem 0;
+    margin: 1.4rem 0;
     font-weight: bold;
+
     @media (min-width: 768px) {
       margin: 1rem;
     }
   }
   button {
     width: 80%;
-    padding: 0.7rem 2.5rem;
+    padding: 1.2rem 2rem;
+    border-radius: 24px;
 
     @media (min-width: 768px) {
-      width: 50%;
+      width: 70%;
       margin: 1rem;
-      padding: 1rem;
+      padding: 1.5rem 3rem;
+    }
+    &:hover {
+      filter: blur(0.7px);
     }
   }
 `;

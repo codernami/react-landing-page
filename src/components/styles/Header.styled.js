@@ -74,11 +74,11 @@ export const StyledHero = styled.div`
 
   button {
     margin: 2rem auto;
-    padding: 0.7rem 3rem;
+    padding: 0.9rem 3rem;
 
     @media (min-width: 768px) {
       margin-left: 0;
-      padding: 0.8rem 3rem;
+      padding: 1.2rem 2.5rem;
     }
   }
 `;

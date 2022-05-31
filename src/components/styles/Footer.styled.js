@@ -9,6 +9,10 @@ export const StyledFooter = styled.footer`
     padding: 0 3rem 2rem;
   }
 
+  p {
+    font-size: clamp(1.1rem, 4vw, 1.5rem);
+  }
+
   img {
     width: min(200px, 40%);
     margin-bottom: 2rem;
@@ -18,7 +22,7 @@ export const StyledFooter = styled.footer`
     @media (min-width: 768px) {
       display: flex;
       justify-content: space-around;
-      border: 1px solid yellow;
+      flex-wrap: wrap;
     }
   }
   div:nth-child(2) {
