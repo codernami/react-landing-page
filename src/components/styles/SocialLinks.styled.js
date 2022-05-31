@@ -5,23 +5,23 @@ export const StyledSocialLinks = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 
   ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-evenly;
   }
   a {
-    margin: 0.5rem;
     color: #fff;
+    font-size: clamp(1.5rem, 1.25vw, 2rem);
   }
   small {
     text-align: center;
 
     @media (min-width: 768px) {
       text-align: right;
-      width: 300px;
       margin-top: 5rem;
+      width: 300px;
     }
   }
 `;

@@ -55,6 +55,7 @@ export const MiniCard = styled.div`
   }
   button {
     width: 80%;
+    padding: 0.7rem 2.5rem;
 
     @media (min-width: 768px) {
       width: 50%;

@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: clamp(1.8rem, 5vw, 2rem);
     margin-bottom: 1rem;
   }
-  p, button, li, small {
+  p, button, li {
     font-size: clamp(1rem, 1.25vw, 1.25rem);
   }
   img {
