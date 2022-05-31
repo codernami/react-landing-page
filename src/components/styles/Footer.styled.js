@@ -9,13 +9,13 @@ export const StyledFooter = styled.footer`
     padding: 0 5rem 3rem;
   }
 
-  img {
-    width: 35%;
-    margin-bottom: 2rem;
+  button {
+    padding:.7rem 2.5rem;
+  }
 
-    @media (min-width: 768px) {
-      width: 20%;
-    }
+  img {
+    width: min(200px, 40%);
+    margin-bottom: 2rem;
   }
 
   div {

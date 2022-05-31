@@ -13,7 +13,7 @@ export default function Hero() {
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <Button bg="#ff52bf" color="#FFF" padding=".5rem 2rem">
+        <Button bg="#ff52bf" color="#FFF">
           Get Started For Free
         </Button>
       </div>

@@ -4,7 +4,7 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #ebfbff;
 
   @media (min-width: 768px) {
@@ -17,9 +17,13 @@ export const StyledHeader = styled.header`
       color: #fff;
     }
   }
+
+  button {
+    padding: 0.5rem 1.5rem;
+  }
 `;
 
 export const Logo = styled.img`
   display: block;
-  width: 20%;
+  width: min(200px, 40%);
 `;
