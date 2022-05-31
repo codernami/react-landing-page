@@ -80,5 +80,8 @@ export const StyledHero = styled.div`
       margin-left: 0;
       padding: 1.2rem 2.5rem;
     }
+    &:hover {
+      filter: blur(0.7px);
+    }
   }
 `;

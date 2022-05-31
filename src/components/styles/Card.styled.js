@@ -3,25 +3,31 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 
   @media (min-width: 768px) {
-    flex-direction: ${({ layout }) => layout || "row"};
+    flex-direction: ${({ layout }) => layout || "row-reverse"};
     align-items: center;
+    text-align: left;
   }
   div {
     padding: 3rem 1rem;
+
+    @media (min-width: 768px) {
+      padding: 3rem 5rem;
+    }
   }
 
   p {
     color: #808d99;
     padding: 2rem 0.5rem;
-  }
-  img {
-    width: 80%;
+
+    @media (min-width: 768px) {
+      padding: 0;
+    }
   }
 `;
 
