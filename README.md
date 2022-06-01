@@ -8,7 +8,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,14 +26,15 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
-![](./images/screen-capture.webm)
+![Screenshot Mobile](./images/screenshot_mobile.png)
+![Screenshot Desktop](./images/screenshot_desktop.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Netlify Demo](https://csb-9jk52o.netlify.app/)
+- Live Site URL: [Huddle Landing Page Demo](https://csb-9jk52o.netlify.app/)
 
 ## My process
 
@@ -48,11 +49,11 @@ Users should be able to:
 
 ### What I learned
 
-This project is a start for learning react. Also I feel curiousity about styled-components and for my surprise it was amazing, so useful and practical.
+This project is a start for learning react. Also I feel curiousity about react styled-components so I watched the Traversy Media Tutorial and for my surprise it was a great experience working with it.
 
 ### Continued development
 
-This project was the first one to continue learning react.
+This frontend mentor challenge was the first one I developed in react. I will continue learning more about react and how to apply new concepts in my developments.
 
 ### Useful resources
 
@@ -60,7 +61,9 @@ This project was the first one to continue learning react.
 
 - [Codersandbox](https://www.codesandbox.io) - This is an amazing online code editor which helped me to develop this project. I really liked this platform and will use it going forward.
 
+- [Netlify](https://www.netlify.com) - This is one of the greatest tools to deploy our projects and share our live sites.
+
 ## Author
 
 - Github - [Codernami](https://github.com/codernami)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@codernami](https://www.frontendmentor.io/profile/codernami)
