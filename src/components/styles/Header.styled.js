@@ -23,13 +23,6 @@ export const StyledHeader = styled.header`
 
     button {
       padding: 0.5rem 1.5rem;
-
-      &:hover {
-        @media (min-width: 992px) {
-          background-color: #ff52bf;
-          color: #fff;
-        }
-      }
     }
   }
 `;

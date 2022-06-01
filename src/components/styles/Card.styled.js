@@ -61,6 +61,7 @@ export const MiniCard = styled.div`
   button {
     width: 80%;
     padding: 1.2rem 2rem;
+    background-color: rgba(255, 82, 191);
     border-radius: 24px;
 
     @media (min-width: 768px) {
@@ -69,7 +70,7 @@ export const MiniCard = styled.div`
       padding: 1.5rem 3rem;
     }
     &:hover {
-      filter: blur(0.6px);
+      background-color: rgba(255, 82, 191, 0.85);
     }
   }
 `;

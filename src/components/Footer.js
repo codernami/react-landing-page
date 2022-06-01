@@ -9,9 +9,7 @@ export default function Footer() {
     <StyledFooter>
       <MiniCard>
         <p>Ready To Build Your Community?</p>
-        <Button bg="#ff52bf" color="#FFF">
-          Get Started For Free
-        </Button>
+        <Button color="#FFF">Get Started For Free</Button>
       </MiniCard>
       <Logo src="./images/logo_white.svg" alt="" />
       <div>
