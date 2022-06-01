@@ -14,16 +14,17 @@ export const StyledCard = styled.div`
     text-align: left;
   }
   div {
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
 
     @media (min-width: 768px) {
-      padding: 3rem 5rem;
+      padding: 3rem 4rem;
     }
   }
 
   p {
     color: #808d99;
-    padding: 2rem 0.5rem;
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
 
     @media (min-width: 768px) {
       padding: 0;
@@ -68,7 +69,7 @@ export const MiniCard = styled.div`
       padding: 1.5rem 3rem;
     }
     &:hover {
-      filter: blur(0.7px);
+      filter: blur(0.6px);
     }
   }
 `;

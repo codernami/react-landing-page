@@ -17,11 +17,24 @@ export default function Footer() {
       <div>
         <ul>
           <li>
+            <span>
+              <img src="./images/icon-location.svg" alt="a" />
+            </span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </li>
-          <li>+1-543-123-4567</li>
-          <li>example@huddle.com</li>
+          <li>
+            <span>
+              <img src="./images/icon-phone.svg" alt="a" />
+            </span>
+            +1-543-123-4567
+          </li>
+          <li>
+            <span>
+              <img src="./images/icon-email.svg" alt="a" />
+            </span>
+            example@huddle.com
+          </li>
         </ul>
 
         <div>

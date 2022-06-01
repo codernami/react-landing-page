@@ -14,6 +14,10 @@ export const StyledSocialLinks = styled.div`
   a {
     color: #fff;
     font-size: clamp(1.5rem, 1.25vw, 2rem);
+
+    &:hover {
+      color: #ff52bf;
+    }
   }
   small {
     text-align: center;

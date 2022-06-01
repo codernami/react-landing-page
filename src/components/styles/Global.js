@@ -8,10 +8,11 @@ export const GlobalStyles = createGlobalStyle`
   }
   body {
     font-family: 'Open sans', sans-serif;
+    color: #333;
   }
   h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(1.8rem, 5vw, 2rem);
+    font-size: clamp(1.7rem, 4vw, 2rem);
     margin-bottom: 1rem;
   }
   p, button, li {

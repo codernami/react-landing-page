@@ -13,9 +13,16 @@ export const StyledFooter = styled.footer`
     font-size: clamp(1.1rem, 4vw, 1.5rem);
   }
 
-  img {
+  img:nth-child(2) {
     width: min(200px, 40%);
     margin-bottom: 2rem;
+
+    @media (min-width: 768px) {
+      margin-left: 2rem;
+    }
+    @media (min-width: 1180px) {
+      margin-left: 0;
+    }
   }
 
   div {
@@ -31,6 +38,12 @@ export const StyledFooter = styled.footer`
       width: 35%;
     }
   }
+  div:nth-child(2) ul {
+    li:hover {
+      text-decoration: underline;
+    }
+  }
+
   ul {
     list-style-type: none;
     margin-bottom: 2rem;
@@ -38,16 +51,21 @@ export const StyledFooter = styled.footer`
   ul:nth-child(1) {
     @media (min-width: 768px) {
       width: 40%;
-      padding-right: 1.5rem;
     }
   }
 
   li {
     margin-bottom: 1rem;
     cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
 
     @media (min-width: 768px) {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
+  }
+  span > img {
+    width: 15px;
+    margin-bottom: 1rem;
   }
 `;
