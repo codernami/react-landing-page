@@ -11,7 +11,7 @@ export const StyledHeader = styled.header`
     background-position: top center;
   }
 
-  header {
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;

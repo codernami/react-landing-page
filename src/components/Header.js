@@ -4,12 +4,12 @@ import { Button } from "./styles/Button.styled";
 export default function Header() {
   return (
     <StyledHeader>
-      <header>
+      <nav>
         <Logo src="./images/logo.svg" alt="Huddle logo" />
         <Button bg="#FFF" color="#333">
           Try It Free
         </Button>
-      </header>
+      </nav>
 
       <StyledHero>
         <div>
@@ -26,7 +26,10 @@ export default function Header() {
           </Button>
         </div>
         <div>
-          <img src="./images/illustration-mockups.svg" alt="" />
+          <img
+            src="./images/illustration-mockups.svg"
+            alt="illustration mockups"
+          />
         </div>
       </StyledHero>
     </StyledHeader>
