@@ -28,8 +28,7 @@ Users should be able to:
 
 ### Screenshots
 
-![:scale 50%](./public/images/screenshot_mobile.png)
-![Screenshot Desktop](./public/images/screenshot_desktop.png)
+![Screenshots](./public/images/screenshots.png)
 
 ### Links
 
