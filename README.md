@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshots
 
-![Screenshots](./public/images/screenshots.png)
+![Screenshots](./public/images/screenshots_huddle.png)
 
 ### Links
 
