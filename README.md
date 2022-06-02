@@ -58,7 +58,7 @@ This frontend mentor challenge was the first one I developed in react. I will co
 
 - [Tutorial from Traversy Media about React Styled Components](https://youtu.be/02zO0hZmwnw) - This tutorial helped me to learn how to create styled components, the use of Global styles, props and themes. I'd recommend it to anyone still learning this concept.
 
-- [Codersandbox](https://www.codesandbox.io) - This is an amazing online code editor which helped me to develop this project. I really liked this platform and will use it going forward.
+- [Codesandbox](https://www.codesandbox.io) - This is an amazing online code editor which helped me to develop this project. I really liked this platform and will use it going forward.
 
 - [Netlify](https://www.netlify.com) - This is one of the greatest tools to deploy our projects and share our live sites.
 
