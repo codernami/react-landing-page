@@ -48,19 +48,21 @@ Users should be able to:
 
 ### What I learned
 
-This project is a start for learning react. Also I feel curiousity about react styled-components so I watched the Traversy Media Tutorial and for my surprise it was a great experience working with it.
+This project is a start for learning React. I watched the React Styled Components Tutorial from Traversy Media. It was a great experience working with this new concept.
 
 ### Continued development
 
-This frontend mentor challenge was the first one I developed in react. I will continue learning more about react and how to apply new concepts in my developments.
+This Frontend Mentor challenge was the first one I developed in React. I will continue learning more about React and how to apply new concepts to new projects.
 
 ### Useful resources
 
-- [Tutorial from Traversy Media about React Styled Components](https://youtu.be/02zO0hZmwnw) - This tutorial helped me to learn how to create styled components, the use of Global styles, props and themes. I'd recommend it to anyone still learning this concept.
+- [Tutorial from Traversy Media about React Styled Components](https://youtu.be/02zO0hZmwnw) - This tutorial helped me to learn how to create styled-components and how to apply global styles, props, and themes. I'd recommend it to anyone still learning this concept.
 
-- [Codesandbox](https://www.codesandbox.io) - This is an amazing online code editor which helped me to develop this project. I really liked this platform and will use it going forward.
+- [Codesandbox](https://www.codesandbox.io) - This is a great online code editor. It helped me to develop this project. I liked this platform and will use it going forward.
 
-- [Netlify](https://www.netlify.com) - This is one of the greatest tools to deploy our projects and share our live sites.
+- [Netlify](https://www.netlify.com) - This tool lets us deploy our projects and share our live sites.
+
+- [Grammarly](https://www.grammarly.com) - It helps me to write this readme in English and correct misspellings.
 
 ## Author
 
