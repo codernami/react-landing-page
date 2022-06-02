@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshots
 
-![Screenshot Mobile](./images/screenshot_mobile.png)
-![Screenshot Desktop](./images/screenshot_desktop.png)
+![Screenshot Mobile](../images/screenshot_mobile.png)
+![Screenshot Desktop](../images/screenshot_desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [React Landing Page using styled components](https://www.frontendmentor.io/solutions/react-landing-page-using-styled-components-AnG3JXC9xq)
 - Live Site URL: [Huddle Landing Page Demo](https://csb-9jk52o.netlify.app/)
 
 ## My process
